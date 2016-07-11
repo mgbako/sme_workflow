@@ -1,0 +1,38 @@
+<ion-view view-title="Notes" id="notes">
+  <ion-nav-bar class="bar-balanced">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" ng-click="toggleLeftSideMenu()">
+        </button>
+      </ion-nav-buttons>
+      <ion-nav-buttons side="right">
+        <button class="button button-icon button-clear ion-plus-round" ng-click="addNote()">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+  <ion-content>
+	<div class="card" ui-sref="app.singleNote({id:1})">
+		<div class="note-title">
+			<div class="item item-divider report-header">
+		    	<h2>Title</h2>
+		  	</div>
+		</div>
+		<div class="row row-center">
+			<div class="col col-100">
+				<h4>Buying Tools</h4>
+			</div>
+			<i class="icon ion-ios-arrow-right"></i>
+		</div>
+		<div class="row row-center time">
+			<div class="col col-50">
+				<i class="icon ion-calendar">&nbsp;&nbsp;</i><span>11/07/2016</span>
+			</div>
+			<div class="col col-50">
+				<i class="icon ion-ios-clock">&nbsp;&nbsp;</i><span>10:28</span>	
+			</div>
+		</div>
+	</div>
+  </ion-content>
+</ion-view>

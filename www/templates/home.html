@@ -1,0 +1,57 @@
+<ion-view view-title="Home" id="dashbord">
+  <ion-content>
+    <div class="card">
+    	<div class="row summary">
+    		<div class="col col-50">
+    			<h4>
+	    			<span class="badge badge-assertive mybadge dash-icon"><i class="icon ion-ios-cart"></i></span>
+	    			<span class="dash-title">Expenses</span>
+    			</h4>
+    			<h5 class="figure"><i class="icon ion-ngn"></i>40000</h5>
+    		</div>
+    		<div class="col col-50">
+    			<h4>
+	    			<span class="badge badge-assertive mybadge dash-icon"><i class="icon ion-gear-a"></i></span>
+	    			<span class="dash-title">Project</span>
+    			</h4>
+    			<h5 class="figure"><i class="icon ion-ngn"></i>40000</h5>
+    		</div>
+    	</div>
+    </div>
+    <div class="card">
+	  <div class="item item-divider report-header">
+	    Financial Report
+	  </div>
+	  <div class="item item-text-wrap">
+	   <canvas id="line" class="chart chart-line" chart-data="data"
+		chart-labels="labels" chart-series="series" chart-options="options"
+		chart-dataset-override="datasetOverride">
+		</canvas> 
+	  </div>
+	</div>
+
+	<div class="card">
+	  <div class="item item-divider report-header">
+	    Sales Report
+	  </div>
+	  <div class="item item-text-wrap">
+	   <canvas id="bar" class="chart chart-bar" chart-data="data"
+		chart-labels="labels" chart-series="series" chart-options="options"
+		chart-dataset-override="datasetOverride">
+			
+		</canvas> 
+	  </div>
+	</div>
+
+	<div class="card">
+	  <div class="item item-divider report-header">
+	    Project Report
+	  </div>
+	  <div class="item item-text-wrap">
+	   <canvas id="doughnut" class="chart chart-doughnut" chart-data="data2"
+		chart-labels="label2s" ></canvas> 
+	  </div>
+	</div>
+
+  </ion-content>
+</ion-view>

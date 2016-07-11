@@ -1,0 +1,189 @@
+/* Empty. Add your own CSS if you like */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,400italic,700italic,300,300italic);
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #444;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.ion-naira:before, .ion-ngn:before{
+	content: "\0020A6";
+}
+
+.ion-task:before{
+	content: "\f0ae";
+}
+
+.client{
+	margin: 0 auto !important;
+    max-height: 200px;
+    max-width: 200px !important;
+    border-radius: 50% !important;
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+img.img-responsive{
+    width: 100%;
+    height: 100%;
+}
+
+img.img-circle{
+	border-radius: 50%;
+}
+
+.pane, .view {
+    background-color: #ebeff1;
+}
+
+.card, .list-inset {
+    border-radius: 0px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    border: 1px solid rgba(0,0,0,0.09);
+    -webkit-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+.text-center{
+	text-align: center;;
+}
+
+.report-header {
+    background-color: #33cd5f;
+    color: #fff;
+}
+.report-header h1, .report-header h2{
+	color: #fff;
+}
+
+.ion-android-close:before {
+    font-size: 30px;
+    color: #a2a2a2;
+    padding: 0 10px;
+}
+
+.bar {
+    background-image: none;
+}
+
+.forgot{
+	text-align: right;
+}
+
+#login .btn{
+	border: none;
+}
+
+.time{
+	border-top: 1px solid #ccc;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.time .col.col-50{
+	border-right: 1px solid #ccc;
+}
+
+.time .col.col-50:last-child{
+	border-right: none;
+}
+
+.time .note-title.col {
+	padding: 0;
+}
+
+/* .menu {
+    background-color: #33cd5f;
+}
+ */
+
+ .menu .bar-header {
+    height: 150px;
+    position: relative;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+}
+
+.menu .scroll-content {
+    position: relative;
+    top: 0;
+}
+
+.menu .item{
+    border-color: #ccc;
+}
+
+.menu .icon:before{
+	color: #33cd5f;
+	font-size: 20px;
+    margin-right: 10px;
+}
+
+
+/* .menu .item-complex .item-content, .menu .item-radio .item-content {
+    background-color: #33cd5f;
+} */
+
+.row.summary{
+	padding: 0;
+}
+.summary .col{
+	border-right: 1px solid #ccc;
+}
+
+.summary .col:last-child{
+	border-right: none;
+}
+
+.dash-title{
+	float: left;
+}
+
+.dash-icon{
+	float: right;
+}
+.figure{
+	clear: both;
+	padding-top: 5px;
+	color: #28a54c;
+}
+
+.mybadge {
+	border-radius: 0px;
+}
+
+#notes .ion-ios-arrow-right:before {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#register.pane, #login.pane {
+    background-color: #fff;
+}
+
+#slides button{
+	border-radius: 0;
+    position: fixed;
+    bottom: 50px;
+}
+
+#slides.pane {
+    background-color: #fff;
+}
+
+.img-wrapper{
+	align-items: center;
+    align-content: center;
+    height: 300px;
+    width: 300px;
+    margin: 50px auto;
+    border-radius: 50%;
+}

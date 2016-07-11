@@ -1,0 +1,32 @@
+<ion-view title="Login" id="login">
+  <ion-content>
+    <div class="row text-center">
+      <div class="col col-100">
+        <h5>Login To</h5><br>
+        <h4>Getting Things Organized. <br>
+        Easily Tracked. </h4> 
+      </div>
+    </div>
+    <form ng-submit="doLogin()">
+      <div class="list">
+        <label class="item item-input item-stacked-label">
+          <span class="input-label">Email</span>
+          <input type="text" ng-model="loginData.username" placeholder="joe@imagine.com">
+        </label>
+        <label class="item item-input item-stacked-label">
+          <span class="input-label">Password</span>
+          <input type="password" ng-model="loginData.password" placeholder="*******">
+        </label>
+        <label class="item forgot">
+          <a href="" class="subdued">Forgot Password?</a>
+        </label>
+        <label class="item btn">
+          <button class="button button-block button-balanced" type="submit">Log in</button>
+        </label>
+      </div>
+    </form>
+    <label class="item" ui-sref="app.register">
+      <p>Don't have an account? <a >Register</a></p>
+    </label>
+  </ion-content>
+</ion-view>

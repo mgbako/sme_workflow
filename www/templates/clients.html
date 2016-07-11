@@ -1,0 +1,12 @@
+<ion-view view-title="Clients">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="client in clients" href="#/app/clients/{{client.id}}" class="item-avatar item-icon-right"">
+      	<img src="img/mike.png" alt="">
+      	<i class="icon ion-ios-arrow-right"></i>
+        <h2>{{client.title}}</h2>
+        <p>Lorem ipsum dolor sit amet!</p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
